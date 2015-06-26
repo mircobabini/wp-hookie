@@ -1,6 +1,6 @@
 # Hookie
 
-**Hookie (Visual Hook Reference) plugin is a tool for plugin developers that helps determine the sequence in which action and filter functions are fired.**
+**Hookie (Visual Hook Reference) plugin for WordPress is a tool for plugin developers that helps determine the sequence in which action and filter functions are fired.**
 
 ## Description
 Hookie (Visual Hook Reference) allows you to peer into the inner workings of the WordPress Plugin API. You can configure what is outputted and to where the output is sent (screen or text file).
