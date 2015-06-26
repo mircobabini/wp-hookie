@@ -255,24 +255,24 @@ function _implode_elem( $elem, &$buffer ){
 	}
 }
 
-global $vhr_buffer, $get_header_done;
-$vhr_buffer = '';
+global $hookie_buffer, $get_header_done;
+$hookie_buffer = '';
 $get_header_done = false;
 add_action( 'get_header', function(){
 	global $get_header_done;
 	$get_header_done = true;
 });
 function echo_or_bufferize( $str ){
-	global $vhr_buffer, $get_header_done;
+	global $hookie_buffer, $get_header_done;
 	if( headers_sent() || $get_header_done ){
-		if( $vhr_buffer ){
-			echo $vhr_buffer;
-			$vhr_buffer = false;
+		if( $hookie_buffer ){
+			echo $hookie_buffer;
+			$hookie_buffer = false;
 		}
 
 		echo $str;
 	}else{
-		$vhr_buffer .= $str;
+		$hookie_buffer .= $str;
 	}
 }
 ?>

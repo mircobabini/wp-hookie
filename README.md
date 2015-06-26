@@ -9,7 +9,7 @@ Hookie (Visual Hook Reference) allows you to peer into the inner workings of the
 This plugin is to be used only in a development sandbox and not in a production environment.
 
 ## Contribute
-If you wanna contribute, pull requests on [github.com](https://github.com/mircobabini/wp-visual-hook-reference/pulls).
+If you wanna contribute, pull requests on [github.com](https://github.com/mircobabini/wp-hookie/pulls).
 
 ## Installation
 Simply search for ‘Hookie’ in the Plugins Admin page, then install and activate it. That's it!
